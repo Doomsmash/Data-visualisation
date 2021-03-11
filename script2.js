@@ -14,6 +14,11 @@ for (i = 1; i < table2.rows.length; i++) {
     }
 
 }
+
+for(var i=0; i < lands.length; i++) {
+    lands[i] = lands[i].replace(/<br>/g, '');
+   }
+
 console.log(lands);
 
 // array année 1
@@ -80,4 +85,6 @@ let myChart2 = new Chart(chart, {
         }
     }
 });
+
+
 
